@@ -1,0 +1,530 @@
+body,
+html {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+
+.btn.btn-primary {
+  background: #dd364f;
+  color: white;
+  border-color: #f9dae0;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-sm {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow-lg, .editorChoice .item:hover .card, .listProduct .card:hover, .listArticles .card:hover {
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+#app {
+  padding-top: 150px;
+}
+
+.headerNavigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.headerNavigation .section1 {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.headerNavigation .section1 .logoSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerNavigation .section1 .logoSection .btnMenuTrigger {
+  height: 65px;
+  width: 65px;
+  display: table;
+  background: transparent;
+  border-color: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #5a5a5a;
+}
+
+.headerNavigation .section1 .inputSearch {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.headerNavigation .section1 .inputSearch .iconSearch {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0.4;
+}
+
+.headerNavigation .section1 .inputSearch input {
+  border-radius: 100px;
+  height: 40px;
+  background: transparent;
+  padding-left: 50px;
+}
+
+.headerNavigation .section1 .btnLoginRegister {
+  background: #dd364f;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.headerNavigation .section1 .btnLoginRegister span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.headerNavigation .section2 {
+  height: 65px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.headerNavigation .section2 .mainMenuLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  height: 65px;
+}
+
+.headerNavigation .section2 .mainMenuLink li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  text-transform: uppercase;
+  padding: 0 20px;
+  font-weight: bold;
+  color: #5a5a5a;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.headerNavigation .section2 .mainMenuLink li a:hover {
+  background: #dd364f;
+  color: white;
+  text-decoration: none;
+}
+
+.titleSection {
+  color: #5a5a5a;
+  margin: 25px 0;
+}
+
+.titleSectionGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.titleSectionGroup h3 {
+  font-size: 30px;
+}
+
+.titleSectionGroup p {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.titleSectionGroup .btn-link {
+  background: transparent;
+  border-color: transparent;
+  color: #dd364f;
+  font-size: 18px;
+}
+
+.titleSectionGroup .btn-link:hover {
+  background: transparent;
+  color: #dd364f;
+  text-decoration: none;
+  border-color: #f9dae0;
+}
+
+.ratingCardItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5a5a5a;
+  margin: 10px 0;
+}
+
+.ratingCardItem strong {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.ratingCardItem span {
+  color: #888;
+}
+
+.ratingCardItem .stars {
+  margin-right: 5px;
+  padding: 0;
+}
+
+.ratingCardItem .stars svg {
+  margin-top: -5px;
+  fill: #dd364f;
+  stroke: #d0d0d0;
+  width: 20px;
+  height: auto;
+}
+
+.editorChoice .item .card {
+  border-radius: 10px !important;
+  position: relative;
+  margin-top: 60px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.editorChoice .item .card .profile {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+}
+
+.editorChoice .item .card .profile .avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.editorChoice .item .card .profile .desc {
+  margin-bottom: 30px;
+}
+
+.editorChoice .item .card .profile .desc strong {
+  display: block;
+}
+
+.editorChoice .item .card .profile .desc small {
+  display: block;
+  color: #888;
+}
+
+.editorChoice .item .card .card-body {
+  margin-top: 10px;
+  color: #5a5a5a;
+}
+
+.editorChoice .item .card .card-body .featuerImage {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px 0;
+}
+
+.editorChoice .item .card .card-body h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.editorChoice .item .card .card-body p {
+  color: #555;
+}
+
+.editorChoice .item:hover .card {
+  cursor: pointer;
+}
+
+.listProduct .card {
+  border-radius: 10px !important;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.listProduct .card img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.listProduct .card .card-body {
+  text-align: left;
+}
+
+.listProduct .card .card-body h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.listProduct .card .card-body p {
+  font-size: 14px;
+}
+
+.listProduct .card:hover {
+  cursor: pointer;
+}
+
+.myMatch {
+  background: #f9dae0;
+  background: -webkit-gradient(linear, left top, right top, from(#f9dae0), color-stop(47%, #f7e1e5), to(#f9dae0));
+  background: linear-gradient(to right, #f9dae0 0%, #f7e1e5 47%, #f9dae0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dae0', endColorstr='#f9dae0',GradientType=1 );
+  min-height: 350px;
+  position: relative;
+}
+
+.myMatch .bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.myMatch .content {
+  background: url("../theme/images/bgMyMatch.png") no-repeat left bottom;
+  background-size: inherit;
+  width: 100%;
+  text-align: right;
+  padding: 4em 30px;
+}
+
+.myMatch .content h4 {
+  font-size: 35px;
+}
+
+.myMatch .content p {
+  font-size: 18px;
+}
+
+.listArticles .card {
+  border-radius: 10px !important;
+  position: relative;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.listArticles .card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.listArticles .card .sponsored {
+  display: table;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  background: white;
+  color: #dd364f;
+}
+
+.listArticles .card .card-body {
+  color: #5a5a5a;
+}
+
+.listArticles .card .card-body h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.listArticles .card .card-body .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.listArticles .card .card-body .info div {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.listArticles .card .card-body .info div:last-child {
+  border-left: 1px solid #d0d0d0;
+  padding: 0 5px;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+.listArticles .card:hover {
+  cursor: pointer;
+}
+
+.reviewCarousel .carousel-item {
+  min-height: 300px;
+  padding-bottom: 130px;
+}
+
+.reviewCarousel .carousel-item .card {
+  color: #5a5a5a;
+  border-radius: 10px;
+}
+
+.reviewCarousel .carousel-item .card .card-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px 5px 20px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.reviewCarousel .carousel-item .card .card-image div .smallImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.reviewCarousel .carousel-item .card .card-image div h4 {
+  font-size: 18px;
+}
+
+.reviewCarousel .carousel-item .card .card-image div p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.reviewCarousel .carousel-item .card .card-body {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.reviewCarousel .carousel-item .card .card-body .reviewGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.reviewCarousel .carousel-item .card .card-body .profile {
+  text-align: center;
+  color: #5a5a5a;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.reviewCarousel .carousel-item .card .card-body .profile .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reviewCarousel .carousel-item .card .card-body .profile h5 {
+  margin-bottom: 3px;
+}
+
+.reviewCarousel .carousel-indicators li {
+  background-color: #dd364f;
+  opacity: 0.1;
+}
+
+.reviewCarousel .carousel-indicators li.active {
+  opacity: 1;
+}
+/*# sourceMappingURL=App.css.map */
