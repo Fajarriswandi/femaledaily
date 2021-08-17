@@ -93,7 +93,7 @@ function App() {
       {/* Lates Article */}
 
       {/* Lates Reviews */}
-      <LatesReview/>
+      <LatesReview/> 
       {/* Lates Reviews */}
 
     </div>
