@@ -1,6 +1,6 @@
 import './theme/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Form, FormControl, Button, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 // Images
 import FeatherIcon from 'feather-icons-react';
 import logo from './theme/images/femaleLogo.png';

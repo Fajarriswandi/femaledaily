@@ -89,10 +89,144 @@ function LatesReview() {
                             </Row>
                         </Carousel.Item>
                         <Carousel.Item>
-                            Slide 2
+                            <Row>
+                                <Col>
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <div><img src={ArticleImage} className="smallImage" /></div>
+                                            <div>
+                                                <h4>So you can make better purchase decision</h4>
+                                                <p>CE Fuluric</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="reviewGroup">
+                                                <div className="ratingCardItem">
+                                                    <strong>4.6</strong>
+                                                    <span className="stars">
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStarHalf />
+                                                    </span>
+                                                    <span>(7)</span>
+                                                </div>
+                                                <small>1 Day ago</small>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nunc sit amet, pellentesque. In at in ullamcorper lectus consequat...</p>
+                                            <div className="profile">
+                                                <img src={profile} className="avatar" />
+                                                <h5>Putri Fajar</h5>
+                                                <p>Combination Skin, 25-29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <div><img src={ArticleImage} className="smallImage" /></div>
+                                            <div>
+                                                <h4>So you can make better purchase decision</h4>
+                                                <p>CE Fuluric</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="reviewGroup">
+                                                <div className="ratingCardItem">
+                                                    <strong>4.6</strong>
+                                                    <span className="stars">
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStarHalf />
+                                                    </span>
+                                                    <span>(7)</span>
+                                                </div>
+                                                <small>1 Day ago</small>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nunc sit amet, pellentesque. In at in ullamcorper lectus consequat...</p>
+                                            <div className="profile">
+                                                <img src={profile} className="avatar" />
+                                                <h5>Putri Fajar</h5>
+                                                <p>Combination Skin, 25-29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
                         </Carousel.Item>
                         <Carousel.Item>
-                            Slide 3
+                            <Row>
+                                <Col>
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <div><img src={ArticleImage} className="smallImage" /></div>
+                                            <div>
+                                                <h4>So you can make better purchase decision</h4>
+                                                <p>CE Fuluric</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="reviewGroup">
+                                                <div className="ratingCardItem">
+                                                    <strong>4.6</strong>
+                                                    <span className="stars">
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStarHalf />
+                                                    </span>
+                                                    <span>(7)</span>
+                                                </div>
+                                                <small>1 Day ago</small>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nunc sit amet, pellentesque. In at in ullamcorper lectus consequat...</p>
+                                            <div className="profile">
+                                                <img src={profile} className="avatar" />
+                                                <h5>Putri Fajar</h5>
+                                                <p>Combination Skin, 25-29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <div><img src={ArticleImage} className="smallImage" /></div>
+                                            <div>
+                                                <h4>So you can make better purchase decision</h4>
+                                                <p>CE Fuluric</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="reviewGroup">
+                                                <div className="ratingCardItem">
+                                                    <strong>4.6</strong>
+                                                    <span className="stars">
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStar />
+                                                        <IoStarHalf />
+                                                    </span>
+                                                    <span>(7)</span>
+                                                </div>
+                                                <small>1 Day ago</small>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nunc sit amet, pellentesque. In at in ullamcorper lectus consequat...</p>
+                                            <div className="profile">
+                                                <img src={profile} className="avatar" />
+                                                <h5>Putri Fajar</h5>
+                                                <p>Combination Skin, 25-29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
                         </Carousel.Item>
                     </Carousel>
                 </Col>
