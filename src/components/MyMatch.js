@@ -8,7 +8,7 @@ function MyMatch() {
             {/* <img src={BgMyMatch} className='img-fluid bg'  /> */}
             <Row className="content">
                 <Col md={{ offset: 2 }} sm={12}>
-                    <div className="contentLeft">
+                    <div className="contentLeft mb-3">
                         <h4>Looking for products that are just simply perfect for you?</h4>
                         <p>Here are some product that we believe match your skin, hair and body! have we mentioned that they solve your concerns too?</p>
                         <Button className="btn btn-primary btn-lg">See My Match</Button>
@@ -16,7 +16,7 @@ function MyMatch() {
                 </Col>
                 <Col md={7} sm={12}>
                     <Row className="listProduct">
-                        <Col>
+                        <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
                                 <div className="card-body">
@@ -38,7 +38,7 @@ function MyMatch() {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
                                 <div className="card-body">
@@ -60,7 +60,7 @@ function MyMatch() {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
                                 <div className="card-body">

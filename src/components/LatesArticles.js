@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import ArticleImage from '../theme/images/article.png';
+import ArticleImage from '../theme/images/imgnotfound.png';
 import { IoChevronForwardOutline } from "react-icons/io5";
 
 function LatesArticles() {
@@ -24,7 +24,6 @@ function LatesArticles() {
             <Col md={4} sm="12" key={index}>
                 <div className="card">
                     <img src={post.image} alt={post.title} onError={(e) => e.target.src = ArticleImage} className="img-fluid" />
-                    {/* <img src={ArticleImage} className="img-fluid" /> */}
                     <span className="badge sponsored">Sponsored</span>
                     <div className="card-body">
                         <h4>{post.title}</h4>

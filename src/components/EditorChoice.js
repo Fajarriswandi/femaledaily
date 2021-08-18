@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import avatar1 from '../theme/images/avatar1.png';
+import avatar1 from '../theme/images/avatar2.png';
 import productImage from '../theme/images/product.png';
 import { IoStar, IoStarHalf } from "react-icons/io5";
 // import axios from 'axios';
@@ -24,7 +24,7 @@ export default function EditorChoice() {
     const usePosts = posts.slice(0,4).map((post, index) => {
         return (
             <Col className="item" md={3} key={index}>
-                <div className="card">
+                <div className="card mb-3">
                     <div className="profile">
                         <div className="avatar"><img src={avatar1} className="img-fluid" /></div>
                         <div className="desc">

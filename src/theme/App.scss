@@ -59,6 +59,9 @@ html {
 
 #app {
     padding-top: 150px;
+    @media(max-width:800px){
+        padding-top: 80px;
+    }
 }
 
 .headerNavigation {
@@ -72,8 +75,9 @@ html {
         border-bottom: 1px solid $border;
         .logoSection {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            width: 100%;
             .btnMenuTrigger {
                 height: 65px;
                 width: 65px;
@@ -85,6 +89,14 @@ html {
                 color: $text;
             }
             .logoImage {
+                img{
+                    @media(max-width:800px){
+                        width: 50%;
+                        height: auto;
+                        margin: 0 auto;
+                        display: table;
+                    }
+                }
             }
         }
         .inputSearch {
@@ -287,10 +299,13 @@ html {
     .card {
         border-radius: 10px !important;
         transition: 0.3s ease;
+        margin-bottom: 20px;
         img {
             width: 100%;
             height: 180px;
             object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         }
         .card-body {
             text-align: left;
@@ -315,6 +330,9 @@ html {
     @include bgPink();
     min-height: 350px;
     position: relative;
+    @media(max-width:800px){
+
+    }
     .bg {
         position: absolute;
         bottom: 0;
@@ -328,6 +346,10 @@ html {
         width: 100%;
         text-align: right;
         padding: 4em 30px;
+        @media(max-width:800px){
+            text-align: center;
+            padding-bottom: 50px;
+        }
         h4 {
             font-size: 35px;
         }
@@ -398,6 +420,7 @@ html {
         .card{
             color: $text;
             border-radius: 10px;
+            margin-bottom: 100px;
             .card-image{
                 display: flex;
                 padding: 20px 20px 5px 20px;
@@ -461,5 +484,12 @@ html {
                 opacity: 1;
             }
         }
+    }
+}
+
+#myModal{
+    .modal-content{
+        border-radius: 10px;
+        color: $text;
     }
 }
