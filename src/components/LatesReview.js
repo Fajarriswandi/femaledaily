@@ -69,7 +69,7 @@ function LatesReview() {
                                                         <h4>Title here</h4>
                                                         <p>Subtitle here</p>
                                                     </div>
-                                                </div>
+                                                </div> 
                                                 <div className="card-body">
                                                     <div className="reviewGroup">
                                                         <div className="ratingCardItem">
