@@ -64,32 +64,30 @@ function LatesReview() {
                                         <Col md={6} sm={12} className={2 * index + idx} key={idx}>
                                             <div className="card">
                                                 <div className="card-image">
-                                                    <div><img src={ArticleImage} className="smallImage" /></div>
+                                                    <div><img src={v.product.image} className="smallImage" /></div>
                                                     <div>
-                                                        <h4>Title here</h4>
-                                                        <p>Subtitle here</p>
+                                                        <h4>{v.product.name}</h4>
+                                                        <p>{v.product.desc}</p>
                                                     </div>
-                                                </div> 
+                                                </div>
                                                 <div className="card-body">
                                                     <div className="reviewGroup">
                                                         <div className="ratingCardItem">
-                                                            <strong>4.6</strong>
+                                                            <strong>{v.star}</strong>
                                                             <span className="stars">
-                                                                <IoStar />
-                                                                <IoStar />
-                                                                <IoStar />
-                                                                <IoStar />
-                                                                <IoStarHalf />
+                                                                {Array(v.star).fill("").map((vl, i) =>
+                                                                    <IoStar key={i} />
+                                                                )}
                                                             </span>
-                                                            <span>(7)</span>
+                                                            <span>{v.star}</span>
                                                         </div>
                                                         <small>1 Day ago</small>
                                                     </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nunc sit amet, pellentesque. In at in ullamcorper lectus consequat...</p>
+                                                    <p>{v.comment}</p>
                                                     <div className="profile">
                                                         <img src={profile} className="avatar" />
-                                                        <h5>Putri Fajar</h5>
-                                                        <p>Combination Skin, 25-29</p>
+                                                        <h5>{v.user}</h5>
+                                                        <p>{v.profile.join(" - ")}</p>
                                                     </div>
                                                 </div>
                                             </div>
