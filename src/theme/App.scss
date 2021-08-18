@@ -258,10 +258,11 @@ html {
                 margin-top: 10px;
                 color: $text;
                 .featuerImage {
-                    width: 100%;
+                    width: 70%;
                     height: 180px;
                     object-fit: cover;
-                    margin: 10px 0;
+                    display: table;
+                    margin: 10px auto 15px auto;
                 }
                 h4 {
                     font-size: 18px;

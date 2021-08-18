@@ -21,9 +21,9 @@ export default function EditorChoice() {
     }, []);
 
     // console.log(posts);
-    const usePosts = posts.slice(0,4).map((post) => {
+    const usePosts = posts.slice(0,4).map((post, index) => {
         return (
-            <Col className="item" md={3}>
+            <Col className="item" md={3} key={index}>
                 <div className="card">
                     <div className="profile">
                         <div className="avatar"><img src={avatar1} className="img-fluid" /></div>

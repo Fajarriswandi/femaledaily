@@ -298,11 +298,12 @@ html {
 }
 
 .editorChoice .item .card .card-body .featuerImage {
-  width: 100%;
+  width: 70%;
   height: 180px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 10px 0;
+  display: table;
+  margin: 10px auto 15px auto;
 }
 
 .editorChoice .item .card .card-body h4 {

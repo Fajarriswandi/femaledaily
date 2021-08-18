@@ -19,12 +19,12 @@ function LatesArticles() {
         fetchPosts();
     }, []);
 
-    const usePosts = posts.map((post) => {
+    const usePosts = posts.map((post, index) => {
         return (
-            <Col md={4} sm="12">
+            <Col md={4} sm="12" key={index}>
                 <div className="card">
-                    
-                    <img src={post.image} className="img-fluid" />
+                    <img src={post.image} alt={post.title} onError={(e) => e.target.src = ArticleImage} className="img-fluid" />
+                    {/* <img src={ArticleImage} className="img-fluid" /> */}
                     <span className="badge sponsored">Sponsored</span>
                     <div className="card-body">
                         <h4>{post.title}</h4>
