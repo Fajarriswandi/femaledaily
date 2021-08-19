@@ -25,7 +25,7 @@ export default function EditorChoice() {
     const usePosts = posts.slice(0,4).map((post, index) => {
         return (
             <Col className="item" md={3} key={index}>
-                <div className="card mb-3">
+                <div className="card mb-3 p-2">
                     <div className="profile">
                         <div className="avatar"><img src={avatar1} className="img-fluid" /></div>
                         <div className="desc">

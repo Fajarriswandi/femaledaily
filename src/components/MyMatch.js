@@ -19,7 +19,7 @@ function MyMatch() {
                         <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
-                                <div className="card-body">
+                                <div className="card-body p-4">
                                     <span className="badge badge-danger">Match Skin Type</span>
                                     <div className="ratingCardItem">
                                         <strong>4.6</strong>
@@ -41,7 +41,7 @@ function MyMatch() {
                         <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
-                                <div className="card-body">
+                                <div className="card-body p-4">
                                     <span className="badge badge-danger">Match Skin Type</span>
                                     <div className="ratingCardItem">
                                         <strong>4.6</strong>
@@ -63,7 +63,7 @@ function MyMatch() {
                         <Col md={4} sm={12}>
                             <div className="card">
                                 <img src={BgMyMatch} className='img-fluid' />
-                                <div className="card-body">
+                                <div className="card-body p-4">
                                     <span className="badge badge-danger">Match Skin Type</span>
                                     <div className="ratingCardItem">
                                         <strong>4.6</strong>

@@ -25,7 +25,7 @@ function LatesArticles() {
                 <div className="card">
                     <img src={post.image} alt={post.title} onError={(e) => e.target.src = ArticleImage} className="img-fluid" />
                     <span className="badge sponsored">Sponsored</span>
-                    <div className="card-body">
+                    <div className="card-body p-4">
                         <h4>{post.title}</h4>
                         <div className="info">
                             <div>{post.author}</div>
