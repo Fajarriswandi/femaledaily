@@ -15,18 +15,16 @@ import EditorChoice from './components/EditorChoice';
 import MyMatch from './components/MyMatch';
 import LatesArticles from './components/LatesArticles';
 import LatesReview from './components/LatesReview';
+import PopularGroups from './components/PopularGroups';
 
 function App() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
     <div id="app">
-      {/* <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button> */}
 
       <Modal id="myModal" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -118,6 +116,10 @@ function App() {
       {/* Lates Reviews */}
       <LatesReview />
       {/* Lates Reviews */}
+
+      {/* Popular Groups */}
+      <PopularGroups/>
+      {/* Popular Groups */}
 
     </div>
   );

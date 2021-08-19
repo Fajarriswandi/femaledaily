@@ -10,17 +10,31 @@ html {
   border-color: #f9dae0;
 }
 
+.cardRadius, .popularGroups .card {
+  border-radius: 10px;
+}
+
+.cardRadius .card-header, .popularGroups .card .card-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardRadius .card-footer, .popularGroups .card .card-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .shadow {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.shadow-sm {
+.shadow-sm, .popularGroups .card {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg, .editorChoice .item:hover .card, .listProduct .card:hover, .listArticles .card:hover {
+.shadow-lg, .editorChoice .item:hover .card, .listProduct .card:hover, .listArticles .card:hover, .popularGroups .card:hover {
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
@@ -265,8 +279,9 @@ html {
   border-radius: 10px !important;
   position: relative;
   margin-top: 60px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  top: 0;
 }
 
 .editorChoice .item .card .profile {
@@ -334,13 +349,15 @@ html {
 
 .editorChoice .item:hover .card {
   cursor: pointer;
+  top: -10px;
 }
 
 .listProduct .card {
   border-radius: 10px !important;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
   margin-bottom: 20px;
+  top: 0px;
 }
 
 .listProduct .card img {
@@ -367,6 +384,7 @@ html {
 
 .listProduct .card:hover {
   cursor: pointer;
+  top: -10px;
 }
 
 .myMatch {
@@ -559,5 +577,47 @@ html {
 #myModal .modal-content {
   border-radius: 10px;
   color: #5a5a5a;
+}
+
+.popularGroups {
+  margin-bottom: 30px;
+}
+
+.popularGroups .card {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  top: 0;
+}
+
+.popularGroups .card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: table;
+  margin: 0 auto 15px auto;
+}
+
+.popularGroups .card .listIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.popularGroups .card:hover {
+  cursor: pointer;
+  top: -10px;
 }
 /*# sourceMappingURL=App.css.map */
