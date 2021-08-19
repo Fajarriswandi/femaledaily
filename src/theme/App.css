@@ -427,6 +427,10 @@ html {
   font-size: 18px;
 }
 
+.listArticles {
+  margin-bottom: 30px;
+}
+
 .listArticles .card {
   border-radius: 10px !important;
   position: relative;
@@ -488,9 +492,19 @@ html {
   cursor: pointer;
 }
 
+.reviewCarousel {
+  margin-bottom: 30px;
+}
+
 .reviewCarousel .carousel-item {
   min-height: 300px;
-  padding-bottom: 130px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .reviewCarousel .carousel-item {
+    padding-bottom: 130px;
+  }
 }
 
 .reviewCarousel .carousel-item .card {

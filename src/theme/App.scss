@@ -373,6 +373,7 @@ html {
 }
 
 .listArticles {
+    margin-bottom: 30px;
     .card {
         border-radius: 10px !important;
         position: relative;
@@ -426,10 +427,13 @@ html {
 
 .reviewCarousel {
     // background: orange;
+    margin-bottom: 30px;
     .carousel-item {
-        // background: blue;
         min-height: 300px;
-        padding-bottom: 130px;
+        padding-bottom: 20px;
+        @media(max-width:800px){
+            padding-bottom: 130px;
+        }
         .card {
             color: $text;
             border-radius: 10px;
