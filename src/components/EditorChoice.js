@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import avatar1 from '../theme/images/avatar2.png';
 import productImage from '../theme/images/product.png';
+import ArticleImage from '../theme/images/imgnotfound.png';
 import { IoStar, IoStarHalf } from "react-icons/io5";
 // import axios from 'axios';
 
@@ -33,7 +34,7 @@ export default function EditorChoice() {
                         </div>
                     </div>
                     <div className="card-body">
-                        <img src={post.product.image} className="img-fluid featuerImage" />
+                        <img src={post.product.image} alt={post.product.name} onError={(e) => e.target.src = ArticleImage} className="img-fluid featuerImage" />
                         <div className="ratingCardItem">
                             <strong>{post.product.rating}</strong>
                             <span className="stars">
